@@ -91,7 +91,7 @@ fill(240,230,140);
 text("Fim de Jogo",50,200);
 textSize(20);
 fill(255,255,255);
-text("Pontuacao total: "+pontos,100,240);
+text("Pontuação total: "+pontos,100,240);
 
 if(keyIsDown(ENTER)){
 pontos = 0;
