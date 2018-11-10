@@ -11,17 +11,22 @@ var tela = 0;
 var hunt;
 var jungle;
 var end;
+var backtheme;
 
 function preload(){
 hunt = loadImage("Images/hunt.png");
 jungle = loadImage("Images/jungle.png");
 end = loadImage("Images/end.png");
+soundFormats('mp3', 'ogg');
+backtheme = loadSound("Sound/huntsound.ogg");
 }
 
 function setup(){
 createCanvas(400,400);
 background(220);
 frameRate(60);
+backtheme.setVolume(0.1);
+backtheme.play();
 }
 
 function draw(){
