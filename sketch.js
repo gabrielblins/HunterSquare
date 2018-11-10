@@ -27,6 +27,7 @@ background(220);
 frameRate(60);
 backtheme.setVolume(0.1);
 backtheme.play();
+backtheme.loop();
 }
 
 function draw(){
