@@ -13,6 +13,6 @@ Try to catch the circle and get the high score!
 
 Press R to restart
 
-
+https://gabrielblins.github.io/HunterSquare
 
 -- Made using the notepad --
